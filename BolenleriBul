@@ -1,9 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 
-public class HelloWorld : MonoBehaviour
-{
     void bolenleriBul(int ilksayi, int ikincisayi)
     {
         string adding="";
@@ -29,7 +24,7 @@ public class HelloWorld : MonoBehaviour
             i++;
         }
      
-        print("Tüm liste: "+adding);
+        print("TÃ¼m liste: "+adding);
         i = 0;
         while(i<fark)
         {
@@ -37,7 +32,7 @@ public class HelloWorld : MonoBehaviour
                 doubles += "- " + dizi[i] + " ";
             i++;
         }
-        print("Ýkiye bölünenler: "+doubles);
+        print("Ãkiye bÃ¶lÃ¼nenler: "+doubles);
 
         i = 0;
         while (i < fark)
@@ -46,7 +41,7 @@ public class HelloWorld : MonoBehaviour
                 triplers += "- " + dizi[i] + " ";
             i++;
         }
-        print("Üçe bölünenler: " +triplers);
+        print("ÃœÃ§e bÃ¶lÃ¼nenler: " +triplers);
 
         i = 0;
         while (i < fark)
@@ -55,7 +50,7 @@ public class HelloWorld : MonoBehaviour
                 quads += "- " + dizi[i] + " ";
             i++;
         }
-        print("Dörde bölünenler: " + quads);
+        print("DÃ¶rde bÃ¶lÃ¼nenler: " + quads);
 
         i = 0;
         while (i < fark)
@@ -64,20 +59,4 @@ public class HelloWorld : MonoBehaviour
                 quintets += "- " + dizi[i] + " ";
             i++;
         }
-        print("Beþe bölünenler: " + quintets);
-
-    }
-
-
-
-    void Start()
-    {
-        bolenleriBul(20,44);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-}
+        print("BeÃ¾e bÃ¶lÃ¼nenler: " + quintets);
