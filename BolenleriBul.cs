@@ -32,7 +32,7 @@
                 doubles += "- " + dizi[i] + " ";
             i++;
         }
-        print("Ýkiye bölünenler: "+doubles);
+        print("İkiye bölünenler: "+doubles);
 
         i = 0;
         while (i < fark)
@@ -59,4 +59,4 @@
                 quintets += "- " + dizi[i] + " ";
             i++;
         }
-        print("Beþe bölünenler: " + quintets);
+        print("Beşe bölünenler: " + quintets);
